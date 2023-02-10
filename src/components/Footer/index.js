@@ -51,8 +51,8 @@ function Footer(){
                     </li>
                     <li className="contactDetails googleMap">
                         <GrMapLocation className="contactIcon googleMapIcon" />
-                        <p className="googleMapText">Sarandi, Provincia de Buenos Aires. Argentina</p>
-                        <iframe title="GoogleMaps" className="googleMapDetail" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26247.35037650323!2d-58.36393601843193!3d-34.68199885750706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3330c4228289f%3A0xb698f582838b673d!2sSarand%C3%AD%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1671836511318!5m2!1ses!2sar" width="275" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <p className="googleMapText">Recoleta, Ciudad Autonoma de Buenos Aires. Argentina</p>
+                        <iframe title="GoogleMaps" className="googleMapDetail" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.126705636376!2d-58.413852468645544!3d-34.58479111773358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20CABA!5e0!3m2!1ses!2sar!4v1676060482523!5m2!1ses!2sar" width="275" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </li>
                 </ul>
             </div>

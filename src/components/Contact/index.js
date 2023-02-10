@@ -35,7 +35,7 @@ function Contact() {
                     </div>
                     <div className="contactDetails">
                         <GrMapLocation className="contactIcon" />
-                        <p>Sarandi, Provincia de Buenos Aires. Argentina</p>
+                        <p>Recoleta, Ciudad Autonoma de Buenos Aires. Argentina</p>
                     </div>
                 </div>
         </section>

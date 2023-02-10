@@ -2,8 +2,11 @@ import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 
 import { Nav } from "./components/Nav"
+import { Header } from "./components/Header"
 import { PersonalInfo } from "./components/PersonalInfo"
 import { Educationals } from "./components/Educationals"
+import { Projects } from "./components/Projects"
+import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import { BackToTopButton } from "./components/BackToTopButton"
 
@@ -30,8 +33,11 @@ function App() {
   return (
     <>
       <Nav />
+      <Header />
       <PersonalInfo profileData={{personalData}} />
       <Educationals techArray={techsData} />
+      <Projects />
+      <Contact />
       <Footer />
       <BackToTopButton />
     </>

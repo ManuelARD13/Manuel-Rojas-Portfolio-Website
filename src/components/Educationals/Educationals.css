@@ -38,7 +38,7 @@
   .techBlurbsSection img{
     max-height: 15vh;
     min-height: 15vh;
-    animation: jello-horizontal 2s ease-in-out infinite alternate-reverse both;
+    animation: jello-horizontal 5s ease-in-out infinite alternate-reverse both;
   }
 
   .techBlurbsSection input {
@@ -55,14 +55,12 @@
         align-items: center;
       border: 1px solid RGBA(0,0,0, 0.3);
       border-radius: 0 0 0px 85px;
-
- 
       margin: 0 0.75vw;
       padding: 10px 0px 25px 0px;
       box-shadow: 8px 10px 5px #000000db;
   }
 
-.reactLogo {
+.blurb > .reactLogo {
     pointer-events: none;
     animation: App-logo-spin infinite 20s linear;
   }
