@@ -46,7 +46,7 @@ nav {
     gap: 50px;
 }
 
-.menu a {
+nav a {
     color: white;
     text-decoration: none;
 }

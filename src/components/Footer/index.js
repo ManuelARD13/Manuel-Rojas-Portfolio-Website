@@ -13,10 +13,10 @@ function Footer(){
                 <h6>Projects</h6>
                 <p className="divider" />
                 <ul>
-                    <li><a href="https://manuelrojas13.github.io/react-deploy/">Manuel Rojas Portafolio Website</a></li>
+                    <li><a href="https://manuelARD13.github.io/Manuel-Rojas-Portfolio-Website/">Manuel Rojas Portafolio Website</a></li>
                     <li>PathFinder's Adventure: Cosmo's Quest DEMO</li>
-                    <li>E-Commerce Landing Page</li>
-                    <li>To-Do App</li>
+                    {/* <li>E-Commerce Landing Page</li>
+                    <li>To-Do App</li> */}
                 </ul>
             </div>
             <div className="footerColumns column2">

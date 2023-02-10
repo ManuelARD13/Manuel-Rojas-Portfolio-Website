@@ -1,5 +1,9 @@
 @import url(./App.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Titillium+Web:wght@300&display=swap');
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 h1 {
   font-family: "poppins", sans-serif;
   font-size: 4.578em;

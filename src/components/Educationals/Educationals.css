@@ -11,14 +11,14 @@
     background-blend-mode: overlay;
   }
 
-  .sliderContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 20px 0;
-    height: 49vh;
+  .slick-list {
+    width: 75vw;
+    height: 50vh;
+  }
+ 
+  .slick-dots li button:before {
+   color: white;
+   font-size: 0.6rem;
   }
 
   .techBlurbsSection p {
@@ -48,40 +48,21 @@
     font-size: 16px;
   }
 
-  .sliderArrows {
-    font-size: 40px;
-    transition: 0.5s ease;
-  }
-
-  .sliderArrows:hover {
-    transform: matrix(1.5, 0, 0, 2, 0, 0);
-    transition: 0.5s ease;
-    color: rgba(201,0,214,1);
-  }
-
   .blurb {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    transition-duration: 1s ease;
-  }
-
-.activeBlurb {
       display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       border: 1px solid RGBA(0,0,0, 0.3);
       border-radius: 0 0 0px 85px;
-      width: 17vw;
-      height: 43vh;  
-      padding: 10px 25px 25px 25px;
+
+ 
+      margin: 0 0.75vw;
+      padding: 10px 0px 25px 0px;
       box-shadow: 8px 10px 5px #000000db;
-      opacity: 1;
-      transition-duration: 1s;
   }
 
-  .activeBlurb > .reactLogo {
+.reactLogo {
     pointer-events: none;
     animation: App-logo-spin infinite 20s linear;
   }

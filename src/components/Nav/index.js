@@ -8,10 +8,13 @@ import { SiGmail } from "react-icons/si";
 function Nav() {
     return (
         <nav>
-            <div className="logo">
-                <p className="logo-provitional">MR</p>
-                <p className="logo-sub-tittle">Front-end<br />Developer</p>
-            </div>
+            <a href="#pageTop">
+                <div className="logo">
+                    <p className="logo-provitional">MR</p>
+                    <p className="logo-sub-tittle">Front-end<br />Developer</p>
+                </div>  
+            </a>
+            
             <div className="menu">
                 <p><a href="#pageTop">HOME</a></p>
                 <p><a href="#projectsSection">PORTFOLIO</a></p>
