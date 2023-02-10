@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Manuel-Rojas-Portfolio-Website/static/css/main.f4c9c0fd.css",
+    "main.js": "/Manuel-Rojas-Portfolio-Website/static/js/main.1c275662.js",
+    "static/js/787.c12638fb.chunk.js": "/Manuel-Rojas-Portfolio-Website/static/js/787.c12638fb.chunk.js",
+    "static/media/RojasManuel.jpeg": "/Manuel-Rojas-Portfolio-Website/static/media/RojasManuel.85e2a9e6b4d24528a404.jpeg",
+    "static/media/table.jpg": "/Manuel-Rojas-Portfolio-Website/static/media/table.5dc39c72c75990f123bb.jpg",
+    "static/media/websiteScreenshot.jpg": "/Manuel-Rojas-Portfolio-Website/static/media/websiteScreenshot.9219caf05057d9826233.jpg",
+    "static/media/pathfindersAdventuresScreenshot.jpg": "/Manuel-Rojas-Portfolio-Website/static/media/pathfindersAdventuresScreenshot.4950998ac343c41d2c7e.jpg",
+    "static/media/slick.svg": "/Manuel-Rojas-Portfolio-Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Manuel-Rojas-Portfolio-Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Manuel-Rojas-Portfolio-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Manuel-Rojas-Portfolio-Website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Manuel-Rojas-Portfolio-Website/index.html",
+    "main.f4c9c0fd.css.map": "/Manuel-Rojas-Portfolio-Website/static/css/main.f4c9c0fd.css.map",
+    "main.1c275662.js.map": "/Manuel-Rojas-Portfolio-Website/static/js/main.1c275662.js.map",
+    "787.c12638fb.chunk.js.map": "/Manuel-Rojas-Portfolio-Website/static/js/787.c12638fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c9c0fd.css",
+    "static/js/main.1c275662.js"
+  ]
+}
