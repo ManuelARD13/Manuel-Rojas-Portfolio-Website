@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(./App.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Titillium+Web:wght@300&display=swap');
+h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 4.578em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 3.662em;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 2.93em;
+}
+
+h4 {
+  font-family: "poppins", sans-serif;
+  font-size: 2.344em;
+
+} 
+
+h5 {
+  font-family: "poppins", sans-serif;
+  font-size: 1.875em;
+
+}
+
+h6 {
+  font-family: "poppins", sans-serif;
+  font-size: 1.5em;
+}
+
+.button {
+  background: #6413b0;
+  background-image: -webkit-linear-gradient(top, #6413b0, #c800d6);
+  background-image: -moz-linear-gradient(top, #6413b0, #c800d6);
+  background-image: -ms-linear-gradient(top, #6413b0, #c800d6);
+  background-image: -o-linear-gradient(top, #6413b0, #c800d6);
+  background-image: linear-gradient(to bottom, #6413b0, #c800d6);
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  -webkit-box-shadow: 8px 10px 5px #00000079;
+  -moz-box-shadow: 8px 10px 5px #00000079;
+  box-shadow: 8px 10px 5px #00000079;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 10px #ff00c3be;;
+  background-color: #ff00c4;
+  transform: translateY(-6px);
+}
+
+@media (min-width: 413px) {
+  .button:focus{
+    box-shadow: 5px 5px 10px #ff00c3be;;
+    background-color: #ff00c4;
+    transform: translateY(-6px);
+  }
 }

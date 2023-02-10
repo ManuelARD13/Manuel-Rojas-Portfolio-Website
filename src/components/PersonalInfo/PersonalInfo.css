@@ -1,0 +1,117 @@
+.personalInfoSection {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    min-height: 93.5vh;
+    padding: 6.5vh 100px 0 150px;
+    background-color: rgb(2,2,2);
+    gap: 25px;
+  }
+  
+  .personalInfoSection .personalImgContainer {
+    border: 10px solid rgba(201, 0, 214, 0.7);
+    margin: 50px 40px 0px 0px;
+    height: 395px;
+    width: 300px;
+    border-radius: 0 0 0px 85px;
+  }
+  
+  .personalInfoSection .personalImgContainer > img {
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    width: 320px;
+    height: 415px;
+    border-radius: 0 0 0px 85px;
+  }
+  
+ 
+
+  .personalInfoSection .personalInfoDescription {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 570px;
+  }
+
+  .personalInfoSection .personalInfoDescription > h6 {
+    line-height: 1em;
+  }
+
+  .personalInfoSection .professionalTitle {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  .personalInfoDescription .descriptionContentDesktop {
+    font-size: 14px;
+  }
+
+  .personalInfoDescription .descriptionContentDesktop > span {
+    font-style: italic;
+  }
+
+  .personalInfoDescription .descriptionContentMobile {
+    display: none;
+  }
+
+  .personalInfoDescription input {
+    margin-top: 5px;
+    width: 200px;
+  }
+  
+  @media (max-width: 420px){
+    .personalInfoSection{
+      flex-direction: column;
+      padding: 5vh 5vw 0 5vw;
+      height: 100vh;
+    }
+
+    .personalInfoSection .personalImgContainer {
+      border: 0;
+      margin: 0;
+      margin-top: 5vh;
+      width: 35vw;
+      height: 35vw;
+    }
+
+    .personalInfoSection .personalImgContainer > img {
+      position: initial;
+      width: 35vw;
+      height: 35vw;
+      border-radius: 100%;
+    }
+
+    .personalInfoSection .personalInfoDescription {
+      align-items: center;
+      max-width: 85vw;
+    }
+
+    .personalInfoDescription .subTitlePointer {
+      margin: 5px 0 5px 0;
+    }
+
+    .personalInfoDescription .professionalTitle {
+      font-size: 1.15rem;
+    }
+    .personalInfoDescription .descriptionContentDesktop {
+      display: none;
+    }
+
+    .personalInfoDescription .descriptionContentMobile {
+      display: flex;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      text-align: center;
+    }
+
+    .personalInfoDescription .detailsContainer {
+      display: none;
+    }
+
+    .personalInfoDescription input {
+      margin-top: 7vh;
+      width: 45vw;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+[     
+      {
+        "id": "git",
+        "name": "Git",
+        "description": "The most used Distributed Version Control System. An essential to collaborative source code developtment.",
+        "url": "",
+        "img": "https://i.imgur.com/ZJj2Z0h.png",
+        "alt": "Git Logo"
+      },
+      {
+        "id": "react",
+        "name": "React.js",
+        "description": "A essential. The most populars and powerfull Javascript Front-end Developtment library.",
+        "url": "",
+        "img": "https://i.imgur.com/CGOLuR8.png",
+        "alt": "React Logo"
+      },
+      {
+        "id": "javascript",
+        "name": "Javascript",
+        "description": "Core technology of the client-side webpages behavior. The most extendly used all around the web.",
+        "url": "",
+        "img": "https://i.imgur.com/iV5Hj73.png",
+        "alt": "Javascript Logo"
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "description": "The fifth version of this must-know Markup Language to structure and present content on the web.",
+        "url": "",
+        "img": "https://i.imgur.com/ZNe3JxN.png",
+        "alt": "Html5 Logo"
+      },
+      {
+        "id": "css3",
+        "name": "CSS3",
+        "description": "Style Sheet Lenguage cornerstone of web design. Allows the separation of content and presentation.",
+        "url": "",
+        "img": "https://i.imgur.com/Xdfik0u.png",
+        "alt": "Css3 Logo"
+      },
+      {
+        "id": "github",
+        "name": "Github",
+        "description": "Git-based hosting service. A must-know to co-work and share knowledge between programmers.",
+        "url": "",
+        "img": "https://i.imgur.com/kIm4j5W.png",
+        "alt": "Github Logo"
+      }
+  
+    ]

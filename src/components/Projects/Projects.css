@@ -1,0 +1,105 @@
+.projectsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 93vh;
+    padding: 7vh 0px 0px 0px;
+    background: rgb(100,19,176);
+    background: linear-gradient(90deg, rgba(100,19,176, 0.6) 28%, rgba(201,0,214, 0.6) 100%);
+}
+
+.projectsSection .projectsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 60px;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+.projectsSection p {
+    line-height: 1.3em;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+    max-width: 75vw;
+}
+
+.projectsSection h5 {
+    margin: 10px 0 0 0;
+    font-size: 32px;
+}
+
+.projectsContainer input{
+    height: 30px;
+    width: 170px;
+    margin-top: 15px;
+    padding: 7px;
+    font-size: 16px;
+}
+
+.projectsSection .imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30vw;
+    transition: 0.5s ease;
+}
+
+.projectsSection .imgContainer:hover, .imgContainer:focus{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+}
+
+.projectsSection img {
+    max-width: 30vw;
+    margin-bottom: 10px;
+    box-shadow: 13px 10px 3px rgba(0,0,0, 0.5);
+}
+
+@media (max-width: 420px){
+    .projectsSection{
+        padding: 12vh 5vw 0 5vw;
+    }
+    .projectsSection .projectsContainer {
+        grid-template-columns: 85vw;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 3.5vh;
+        justify-items: center;
+        margin: 5vh 0 10vh 0;
+    }
+
+    .projectsSection h5 {
+        font-size: 1.3rem;
+    }
+
+    .projectsSection .divider {
+        width: 10%;
+    }
+
+    .projectsSection > p {
+        text-align: center;
+    }
+
+    .projectsSection .imgContainer {
+        max-width: 75vw;
+    }
+
+    .projectsSection .imgContainer:hover, .imgContainer:focus {
+        transform: none;
+    }
+
+    .projectsSection img {
+        max-width: 70vw;
+        margin: 0 0 1vh 0;
+    }
+
+    .projectsContainer > p {
+        text-align: justify;
+    }
+
+    .projectsContainer input {
+        margin-top: 1vh;
+    }
+}
